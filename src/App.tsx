@@ -177,7 +177,7 @@ export default function App() {
       <img src={showNodding ? noddingYeah : reactionMeme} className="gif" />
 
       <h2 className="title">
-        {showNodding ? "Find something hidden here 👀" : "PlaceHolder"}
+        {showNodding ? "Find something hidden here 👀" : "Will you be my Valentine"}
         {!showNodding && (
           <span className="heart" onClick={() => setNoFrozen(true)}>💖</span>
         )}
